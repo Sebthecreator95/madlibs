@@ -1,0 +1,21 @@
+h1 {
+	text-align: center;
+	text-size: 20px;
+	color: red;
+	text-decoration: underline;
+}
+
+div {
+	background-color: yellow;
+	border: 5px;
+	border-color: crimson;
+	size: 500px;
+}
+body {
+	background-color: skyblue;
+}
+form {
+	align-items: center;
+	border: 2px;
+	border-color: black;
+}

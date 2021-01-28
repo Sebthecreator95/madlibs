@@ -65,10 +65,10 @@ story2 = Story(
 kind_story = Story(
     "Nice",
     "Be Kind",
-    ["Noun","Noun(plural)","Noun","Noun(Plural","Adjective"],
-    """Be kind to your {Noun}-footed {Noun(Plural)}
+    ["Noun","Noun(plural)","Noun","Noun(Plural)","Adjective"],
+    """Be kind to your {Noun}-footed {Noun}
 For a duck may be somebody`s {Noun},
-Be kind to your {Noun(Plural)} in Place
+Be kind to your {Noun} in Place
 Where the weather is always {Adjective}.
 
 You may think that this is the {Noun},
@@ -77,7 +77,5 @@ Well it is.
 )
 
 # Make dict of {code:story, code:story, ...}
-stories = {s.genre: s for s in [story1, story2]}
-stories = { "history":story1, "omg":story2, "Nice":kind_story
-    
-}
+
+stories = { "history":story1, "omg":story2, "Nice":kind_story}
